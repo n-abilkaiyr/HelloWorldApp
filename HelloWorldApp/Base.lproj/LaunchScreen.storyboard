@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SS1-vE-fYx">
-                                <rect key="frame" x="54.5" y="425.5" width="305.5" height="45.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SS1-vE-fYx">
+                                <rect key="frame" x="54" y="425.5" width="306" height="45"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="39"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </label>
@@ -24,7 +24,8 @@
                         <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="SS1-vE-fYx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ahc-bp-qWT"/>
-                            <constraint firstItem="SS1-vE-fYx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vld-b4-rzP"/>
+                            <constraint firstItem="SS1-vE-fYx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="l2i-Bg-d1I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SS1-vE-fYx" secondAttribute="trailing" constant="54" id="oUG-mL-cRX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
